@@ -23,13 +23,21 @@ $color-grey: #828282;
   border: 10px solid $color-grey;
   border-radius: 50px;
 
+  #clock {
+    color: $color-white;
+    margin-left: 480px;
+    margin-top: 30px;
+    font-weight: 100px;
+    font-size: 30px;
+  }
+
   .img {
     background-image: url(../image/Component.png);
     position: relative;
     width: 550.49px;
     height: 574.49px;
-    margin-top: 40px;
     margin-left: 25px;
+    margin-top: -20px;
   }
 
   p {
@@ -41,11 +49,18 @@ $color-grey: #828282;
     font-size: 20px;
   }
 
+  #year {
+    color: $color-white;
+    margin-left: 310px;
+    margin-top: -30px;
+  }
+
   .line {
     width: 230px;
     height: 10px;
     margin: auto;
     background-color: $color-white;
     border-radius: 1px;
+    margin-top: 5px;
   }
 }
