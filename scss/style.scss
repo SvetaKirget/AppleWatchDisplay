@@ -1,51 +1,51 @@
 @font-face {
-    font-family: "K2D";
-    src: local(""), url("../fonts/K2D-Regular.ttf") format("truetype");
+  font-family: "K2D";
+  src: local(""), url("../fonts/K2D-Regular.ttf") format("truetype");
+}
+
+$color-white: #ffffff;
+$color-black: #222222;
+$color-grey: #828282;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "K2D";
+  font-weight: 400;
+  font-style: normal;
+}
+
+.background {
+  width: 600px;
+  height: 700px;
+  margin: auto;
+  background-color: $color-black;
+  border: 10px solid $color-grey;
+  border-radius: 50px;
+
+  .img {
+    background-image: url(../image/Component.png);
+    position: relative;
+    width: 550.49px;
+    height: 574.49px;
+    margin-top: 40px;
+    margin-left: 25px;
   }
-  
-  $font-color-faf: #ffffff;
-  $font-color-bl: #222222;
-  $font-color-gr: #828282;
-  
-  * {
-    margin: 0;
-    padding: 0;
-    font-family: "K2D";
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .background {
-    width: 600px;
-    height: 700px;
+
+  p {
+    color: $color-white;
+    width: 102px;
+    height: 26px;
     margin: auto;
-    background: $font-color-bl;
-    border: 10px solid $font-color-gr;
-    border-radius: 50px;
-  
-    .img {
-      background-image: url(../image/Component.png);
-      position: relative;
-      width: 550.49px;
-      height: 574.49px;
-      margin-top: 40px;
-      margin-left: 25px;
-    }
-  
-    p {
-      color: $font-color-faf;
-      width: 102px;
-      height: 26px;
-      margin: auto;
-    }
-  
-    .line {
-      background-image: url(../image/Rectangle.png);
-      width: 230px;
-      height: 10px;
-      margin: auto;
-      background: $font-color-faf;
-      border-radius: 1px;
-    }
+    margin-bottom: 7px;
+    font-size: 20px;
   }
-  
+
+  .line {
+    width: 230px;
+    height: 10px;
+    margin: auto;
+    background-color: $color-white;
+    border-radius: 1px;
+  }
+}

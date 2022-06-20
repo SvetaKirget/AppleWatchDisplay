@@ -14,7 +14,7 @@
   width: 600px;
   height: 700px;
   margin: auto;
-  background: #222222;
+  background-color: #222222;
   border: 10px solid #828282;
   border-radius: 50px;
 }
@@ -31,12 +31,13 @@
   width: 102px;
   height: 26px;
   margin: auto;
+  margin-bottom: 7px;
+  font-size: 20px;
 }
 .background .line {
-  background-image: url(../image/Rectangle.png);
   width: 230px;
   height: 10px;
   margin: auto;
-  background: #ffffff;
+  background-color: #ffffff;
   border-radius: 1px;
 }
