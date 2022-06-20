@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "K2D";
+  src: local(""), url("../fonts/K2D-Regular.ttf") format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "K2D";
+  font-weight: 400;
+  font-style: normal;
+}
+
+.background {
+  width: 600px;
+  height: 700px;
+  margin: auto;
+  background-color: #222222;
+  border: 10px solid #828282;
+  border-radius: 50px;
+}
+.background .img {
+  background-image: url(../image/Component.png);
+  position: relative;
+  width: 550.49px;
+  height: 574.49px;
+  margin-top: 40px;
+  margin-left: 25px;
+}
+.background p {
+  color: #ffffff;
+  width: 102px;
+  height: 26px;
+  margin: auto;
+  margin-bottom: 7px;
+  font-size: 20px;
+}
+.background .line {
+  width: 230px;
+  height: 10px;
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 1px;
+}
