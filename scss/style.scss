@@ -25,8 +25,7 @@ $color-grey: #828282;
 
   #clock {
     color: $color-white;
-    margin-left: 480px;
-    margin-top: 30px;
+    margin: 30px 0 0 480px;
     font-weight: 100px;
     font-size: 30px;
   }
@@ -36,8 +35,7 @@ $color-grey: #828282;
     position: relative;
     width: 550.49px;
     height: 574.49px;
-    margin-left: 25px;
-    margin-top: -20px;
+    margin: -20px 0 0 25px;
   }
 
   p {
@@ -51,8 +49,7 @@ $color-grey: #828282;
 
   #year {
     color: $color-white;
-    margin-left: 310px;
-    margin-top: -29px;
+    margin: -29px 0 0 310px;
   }
 
   .line {
@@ -61,6 +58,5 @@ $color-grey: #828282;
     margin: auto;
     background-color: $color-white;
     border-radius: 1px;
-    margin-top: 5px;
   }
 }

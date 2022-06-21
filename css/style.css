@@ -20,8 +20,7 @@
 }
 .background #clock {
   color: #ffffff;
-  margin-left: 480px;
-  margin-top: 30px;
+  margin: 30px 0 0 480px;
   font-weight: 100px;
   font-size: 30px;
 }
@@ -30,8 +29,7 @@
   position: relative;
   width: 550.49px;
   height: 574.49px;
-  margin-left: 25px;
-  margin-top: -20px;
+  margin: -20px 0 0 25px;
 }
 .background p {
   color: #ffffff;
@@ -43,8 +41,7 @@
 }
 .background #year {
   color: #ffffff;
-  margin-left: 310px;
-  margin-top: -29px;
+  margin: -29px 0 0 310px;
 }
 .background .line {
   width: 230px;
@@ -52,5 +49,4 @@
   margin: auto;
   background-color: #ffffff;
   border-radius: 1px;
-  margin-top: 5px;
 }
