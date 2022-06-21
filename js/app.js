@@ -1,5 +1,5 @@
 function createClock() {
-  let date = new Date();
+  const date = new Date();
 
   let hours = date.getHours();
   let minutes = date.getMinutes();
