@@ -12,5 +12,4 @@ function createClock() {
   document.getElementById(`year`).innerHTML = year;
   setInterval(createClock(), 1000);
 }
-
 createClock();
